@@ -21,7 +21,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
     /*
-    Запрос со специальным типов результата и конструирующим выражением
+    Запрос со специальным типом результата и конструирующим выражением
      */
     @Service("contactSummaryService")
     @Repository

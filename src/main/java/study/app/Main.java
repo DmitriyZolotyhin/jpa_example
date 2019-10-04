@@ -19,10 +19,10 @@ import study.supportClasses.ContactSummary;
             ctx.refresh();
             simpleNativeQuery(ctx);
 
-            untypeTutorial(ctx);
+            untypeQuery(ctx);
 
             findByID(ctx);
-            /* insert delete update tutorial. Пример вставки обновления удаления */
+            /* insert delete update . Пример вставки обновления удаления */
             insertUpdateExample(ctx);
             criteriaExample(ctx);
            deleteExample(ctx);
@@ -82,7 +82,7 @@ import study.supportClasses.ContactSummary;
             service.delete(contactEntity);
         }
 
-        private static void untypeTutorial(GenericXmlApplicationContext ctx) {
+        private static void untypeQuery(GenericXmlApplicationContext ctx) {
             ContactSummaryUntypeImpl summaryUntype = ctx.getBean("contactSummaryUntype", ContactSummaryUntypeImpl.class);
             summaryUntype.displayAllContactSummary();
             ContactSummaryService contactSummaryService = ctx.getBean("contactSummaryService", ContactSummaryService.class);

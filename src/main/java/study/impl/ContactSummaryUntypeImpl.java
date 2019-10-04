@@ -9,19 +9,6 @@ import javax.persistence.PersistenceContext;
 import java.util.Iterator;
 import java.util.List;
 
-
-
-
-
-
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import java.util.Iterator;
-import java.util.List;
     /*
     Получение нетипизированного результата (несколько данных из разных таблиц)
      */
