@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <hibernate-version>5.0.1.Final</hibernate-version>
-        <spring-framework-version>4.1.5.RELEASE</spring-framework-version>
+        <spring-framework-version>4.3.30.RELEASE</spring-framework-version>
         <spring-data-version>Gosling-RELEASE</spring-data-version>
     </properties>
 
